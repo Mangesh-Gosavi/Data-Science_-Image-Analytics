@@ -7,13 +7,16 @@ In summary, gRPC plays a crucial role in enabling efficient and reliable communi
 
 Installing Dependencies:
 
-Python: 1: pip install grpcio grpcio-tools
+Python:
+
+1: pip install grpcio grpcio-tools
 
 2:Generate Python Code from Protocol Buffers Definition 
 
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
 
 Javascript:
+
 1:npm install @grpc/grpc-js 
 
 2:Generate Javascript Code from Protocol Buffers Definition 
