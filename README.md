@@ -1,4 +1,5 @@
 Microservices-Communication-using-GRPC
+
 GRPC facilitates efficient and strongly typed communication between microservices, leveraging features like bidirectional streaming and multiplexing for optimized performance in distributed architectures. Its language-agnostic approach and built-in security enhance interoperability and ensure secure data exchange. Microservices architecture is a modern approach to software development that structures an application as a collection of loosely coupled and independently deployable services. One critical aspect of microservices is how these services communicate with each other, and gRPC (gRPC Remote Procedure Call) has emerged as a powerful and efficient communication protocol for microservices.
 
 gRPC is an open-source framework developed by Google that facilitates communication between services in a language-agnostic and platform-neutral manner. It is based on the HTTP/2 protocol, providing features such as bidirectional streaming, multiplexing, and header compression.
