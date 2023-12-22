@@ -6,7 +6,17 @@ gRPC is an open-source framework developed by Google that facilitates communicat
 In summary, gRPC plays a crucial role in enabling efficient and reliable communication between microservices in a distributed architecture. Its features such as strong typing, bidirectional streaming, and support for multiple programming languages contribute to the development of scalable, resilient, and interoperable microservices-based applications.
 
 Installing Dependencies:
-Python: 1: pip install grpcio grpcio-tools 2:Generate Python Code from Protocol Buffers Definition python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
 
-Javascript: 1:npm install @grpc/grpc-js 2:Generate Javascript Code from Protocol Buffers Definition grpc_tools_node_protoc --js_out=import_style=commonjs,binary:. --grpc_out=. calculator.proto
+Python: 1: pip install grpcio grpcio-tools
+
+2:Generate Python Code from Protocol Buffers Definition 
+
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto
+
+Javascript:
+1:npm install @grpc/grpc-js 
+
+2:Generate Javascript Code from Protocol Buffers Definition 
+
+grpc_tools_node_protoc --js_out=import_style=commonjs,binary:. --grpc_out=. calculator.proto
 
